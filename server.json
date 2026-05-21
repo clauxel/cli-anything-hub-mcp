@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.clianythingharness/clianythingharness-mcp",
-  "description": "CLI Anything Hub is a hosted remote MCP for CLI tool MCP.",
+  "title": "CLI Anything Hub MCP",
+  "description": "Paid remote MCP for CLI tool MCP, structured receipts, usage logs, and audit-ready evidence for agent and CI workflows.",
   "version": "1.0.0",
-  "website_url": "https://clianythingharness.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/cli-anything-hub-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://clianythingharness.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/cli-anything-hub-mcp",
+  "serverCardUrl": "https://clianythingharness.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,15 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "CLI Anything Hub MCP",
-      "server_card_url": "https://clianythingharness.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "cli",
+    "tool",
+    "mcp",
+    "remote-mcp"
+  ]
 }
