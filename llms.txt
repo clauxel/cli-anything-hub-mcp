@@ -1,0 +1,15 @@
+# CLI Anything Hub
+
+CLI Anything Hub is a hosted remote MCP for CLI tool MCP.
+
+Website: https://clianythingharness.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: CLI tool MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://clianythingharness.clauxel.com/mcp
+Server card: https://clianythingharness.clauxel.com/server-card.json
+Registry name: com.clauxel.clianythingharness/clianythingharness-mcp
+Tools: cli_tool_list, cli_command_run, cli_schema_validate, cli_result_receipt
+
+Public boundary: docs-only repository; no production source code or secrets.
